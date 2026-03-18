@@ -18,7 +18,11 @@
 
 > **目标**：看完能把 Uniswap V3 的“集中流动性”规则，降维成代码里的 `Current_Tick` 与数组变化。
 
-1) **Uniswap V3: Concentrated Liquidity (集中流动性核心概念)**  
+1) **Uniswap V3 Core Whitepaper (硬核官方白皮书 - 必须看原著)**  
+- **看什么**：全网唯一讲透为什么不用小数的圣经。直接翻到公式 6.13 到 6.15，这就是你要写进代码的物理方程。
+- **参考**：[Uniswap v3 Core Whitepaper (PDF)](https://uniswap.org/whitepaper-v3.pdf)
+
+2) **Uniswap V3: Concentrated Liquidity (集中流动性核心概念)**  
 - **看什么**：理解为什么资金不再是均匀平铺，而是被锁定在特定的价格抽屉（Tick）里。
 - **看完能回答**：当价格不在某个 Tick 区间时，那个区间里的资金在干什么？
 - **参考**：[官方概念指南 - Concentrated Liquidity](https://docs.uniswap.org/contracts/v3/concepts/core-concepts/concentrated-liquidity)
