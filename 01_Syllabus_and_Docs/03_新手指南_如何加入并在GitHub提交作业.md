@@ -74,4 +74,21 @@ git push
 
 只要没报错，你可以随时把刚提交的链接关掉。**导师在期末考核时，会自动从后台把你们全班最新的云端状态一键抓取下来批改。** (是的，你无须发任何消息对老师说“我交了”)。
 
+---
+
+## ⚠️ 番外篇：为什么我点进去显示 "You no longer have access to your assignment repository"? 
+
+这是 GitHub Classroom 新手最最常见的报错，绝大多数是因为你的**组织（Organization）邀请函未签收**！
+
+**【发病原理】：**
+当你第一次用你的 GitHub 账号点击老师的邀请链接时，系统正在同时做两件事：
+1. 给你发了一张课程专属组织的“入场券（Invitation）”。
+2. 想直接把你拽进考场（Repository）。
+但如果因为网速或平台的小 bug，你没能立刻点到“同意加入组织”，系统在带你进考场的那一刻就会因为你没有“胸牌”而把你踢出来，于是显示 *You no longer have access*。
+
+**【解药配方 💊】：去邮箱或设置里签收“邀请券”！**
+1. **查收邮件：** 去你注册 GitHub 的那个邮箱里，搜索发件人为 GitHub 的邮件，标题里包含类似 `Invitation to join simu-class-2026`，点开邮件并点击 **`Join` / `Accept Invitation`**。
+2. **直接在网页处理：** 登录 GitHub 后，在浏览器地址栏直接输入 `https://github.com/settings/organizations`。你大概率会在页面上方看到一个 **Pending Invitation（等待处理的邀请）**。点击 **`Join` (加入)**。
+3. 加入组织成功后，关掉报错网页。**重新点击一次老师最开始发给你的那个 Assignment 任务链接**，你就能顺利进去了！
+
 祝你建模与代码皆无 bug！
