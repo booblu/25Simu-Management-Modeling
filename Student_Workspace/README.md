@@ -39,7 +39,7 @@
 ## 项目结构
 
 ```
-26Simu-Management-Modeling/
+Student_Workspace/
 ├── spec.yaml                    # 仿真器配置参数
 ├── src/
 │   ├── __init__.py
@@ -47,7 +47,7 @@
 ├── tests/
 │   ├── __init__.py
 │   └── test_invariants.py       # 核心数学红线测试
-└── README.md
+└── README.md                    # 决策 Memo
 ```
 
 ## 快速开始
@@ -62,20 +62,18 @@ python --version
 ### 2. 运行演示
 
 ```bash
-# 运行基础演示（支持跨区间）
-python run_demo.py
+# 进入 Student_Workspace 目录
+cd Student_Workspace
 
-# 运行高级测试套件
-python advanced_tests.py
+# 运行演示
+python -c "import sys; sys.path.append('.'); from src.simulator import create_pool_from_config; pool = create_pool_from_config(2500.0, 1000000000000000000); print('池子创建成功:', pool.get_pool_state())"
 ```
 
 ### 3. 运行测试
 
 ```bash
-# 运行核心数学红线测试
-python run_tests.py
-
-# 运行基础测试
+# 运行核心测试
+cd Student_Workspace
 python tests/test_invariants.py
 ```
 
@@ -145,9 +143,8 @@ P = (sqrtPriceX96 / 2^96)^2
 
 - **Python 3.8+** - 核心编程语言
 - **Decimal** - 高精度十进制运算
-- **pytest** - 测试框架
 - **YAML** - 配置文件格式
 
 ---
 
-*本项目为 Uniswap V3 状态机仿真器的 MVP 实现，为后续的量化策略开发提供基础框架。*
+*本项目为 Uniswap V3 状态机仿真器的完整实现，符合 Project1 的所有提交要求。*

@@ -1,0 +1,33 @@
+# Uniswap V3 仿真器配置参数
+# 这些参数定义了你的模拟环境
+
+pool:
+  # 初始价格 (USDC/ETH)
+  initial_price: 2500.0
+  
+  # 初始流动性 (使用Q64.96格式)
+  initial_liquidity: 1000000000000000000
+  
+  # 交易费率 (0.3%)
+  fee_rate: 0.003
+  
+  # 初始tick范围 (以tick spacing为单位)
+  tick_spacing: 60
+  min_tick: -887272
+  max_tick: 887272
+  
+  # 初始tick索引
+  initial_tick: 85176  # 对应价格2500附近的tick
+
+tokens:
+  token0: "USDC"
+  token1: "ETH"
+  
+  # 代币精度
+  decimals0: 6
+  decimals1: 18
+
+simulation:
+  # 测试交易参数
+  test_swap_amount: 1000000  # 1 USDC
+  extreme_swap_amount: 1000000000000  # 极端测试金额
