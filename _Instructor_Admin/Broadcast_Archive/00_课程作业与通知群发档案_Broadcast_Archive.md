@@ -104,7 +104,7 @@ Project 2（Active LP 策略仿真）的作业代码环境现已发布。
 无论你的调仓 Agent 写得多聪明，当面临 5.19 的系统性暴跌时，纯粹的多头敞口（Long Bias）依然会让净资产惨遭腰斩。为了在这个死亡森林里寻找圣杯，本周我们进入 Project 3：**多协议跨链对冲组合（Cross-Protocol Delta Neutrality）**。
 
 🔗 **Project 3 代码仓库领取链接：**
-👉 `[教官在此粘贴 GitHub Classroom 生成的邀请链接]`
+👉 `https://classroom.github.com/a/quYZilP-`
 
 **⚠️ 这次你们要手撕两台印钞机：**
 1. **自己造一家去中心化银行 (Aave Mock)：** 请在 `src/aave_mock.py` 里自己写一套带抵押率计算、生息、借钱和连环清算大审判的借贷机器。
@@ -122,7 +122,7 @@ Project 2（Active LP 策略仿真）的作业代码环境现已发布。
 把你们之前的单机游戏全部推倒！现在，你的池子将被扔进一个无主之地，并注入上百只机器狗（噪音散户 vs 有毒套利者 MEV vs 极致内卷同行）。
 
 🔗 **Project 4 取筹链接：**
-👉 `[教官在此粘贴 GitHub Classroom 生成的邀请链接]`
+👉 `https://classroom.github.com/a/AnejBEbW`
 
 **📋 最终极的考验：**
 这不仅仅是教你用 `Mesa` 框架来搭沙盒。这是这门课的管理学灵魂大考：用代码撰写基于 ABM（Agent-Based Modeling）的**机制逆向设计报告（DAO Proposal）**。
